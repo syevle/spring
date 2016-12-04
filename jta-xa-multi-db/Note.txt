@@ -1,7 +1,7 @@
 step 1 : curl -d'{ "name":"Spring Fans" }' -H "Content-Type: application/json" http://localhost:8080/api
 
-step 2 : curl -d'{ "name":"Spring Fans" }' -H "Content-Type: application/json" http://localhost:8080/api/messages
+step 2 : on browser http://localhost:8080/api/messages
 
-step 3 : curl -d'{ "name":"Spring Fans" }' -H "Content-Type: application/json" http://localhost:8080/api/cats
+step 3 : on browser  http://localhost:8080/api/cats
 
 step 4 : curl -d'{ "name":"Spring Fans 2" }' -H "Content-Type: application/json" http://localhost:8080/api\?exception=true
